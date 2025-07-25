@@ -1,0 +1,7 @@
+repo_index:
+  paths:
+  - repos/ris/packages/jdk
+  - repos/ris/packages/matlab
+  - repos/ris/packages/ucx
+  - repos/ris/packages/gaussian
+  

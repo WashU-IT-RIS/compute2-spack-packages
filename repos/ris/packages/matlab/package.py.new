@@ -1,0 +1,11 @@
+# Add this line at the top of the file
+from spack.package import *
+from spack.pkg.builtin.matlab import Matlab as BuiltinMatlab
+from spack.patch import *
+
+# Add this line inside the Matlab class
+class Matlab(BuiltinMatlab):
+    """Custom RIS extensions to the Matlab package."""
+
+    patch('matlab_R2024a_update3.patch', when='@R2024a:')
+    patch('matlab_R2024b_update5.patch', when='@R2024b:')
