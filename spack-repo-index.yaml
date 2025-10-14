@@ -1,5 +1,4 @@
 repo_index:
   paths:
-  - repos/ris/packages/matlab
-  - repos/ris/packages/gaussian
+  - repos/ris
   
