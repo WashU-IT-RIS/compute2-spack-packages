@@ -29,8 +29,8 @@ class Matlab(Package):
 
     version("R2024b", sha256="65f2798a35212890801a91379d390a757a8e1768d41f1f07a63d5506ac10f9e6")  # update 5
     version("R2024a", sha256="d62123ebef6378a3f9c09dc5d92dd8220df091e3a7d4559fc918c698a05edcda")  # update 3
-    version("R2023a", sha256="")  # update 3
-    version("R2022b", sha256="")
+    version("R2023a", sha256="6482c72b53159bc7bbd235610d14c4b05247fdc0d6d37f2d34a8d0c1cdf018ac")  # update 3
+    version("R2022b", sha256="eafb857a01e6cdf68cb37b39defb438c7f8f3684b390fefc5433c7ffdb799257")
     version("R2022a", sha256="")
     version("R2021b", sha256="")
 
