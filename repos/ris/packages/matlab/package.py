@@ -32,7 +32,7 @@ class Matlab(Package):
     version("R2023a", sha256="6482c72b53159bc7bbd235610d14c4b05247fdc0d6d37f2d34a8d0c1cdf018ac")  # update 3
     version("R2022b", sha256="eafb857a01e6cdf68cb37b39defb438c7f8f3684b390fefc5433c7ffdb799257")
     version("R2022a", sha256="")
-    version("R2021b", sha256="")
+    version("R2021b", sha256="beae0d5f4a21b1387807796659534065858859aa908d090a822f9eb57abed8dc")
 
     variant(
         "mode",
