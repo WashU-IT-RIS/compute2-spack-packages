@@ -29,10 +29,10 @@ class Matlab(Package):
 
     version("R2024b", sha256="65f2798a35212890801a91379d390a757a8e1768d41f1f07a63d5506ac10f9e6")  # update 5
     version("R2024a", sha256="d62123ebef6378a3f9c09dc5d92dd8220df091e3a7d4559fc918c698a05edcda")  # update 3
-    version("R2019b", sha256="d60787263afb810283b7820c4c8d9cb1f854c7cb80f47e136643fd95bf5fbd59")
-    version("R2018b", sha256="8cfcddd3878d3a69371c4e838773bcabf12aaf0362cc2e1ae7e8820845635cac")
-    version("R2016b", sha256="a3121057b1905b132e5741de9f7f8350378592d84c5525faf3ec571620a336f2")
-    version("R2015b", sha256="dead402960f4ab8f22debe8b28a402069166cd967d9dcca443f6c2940b00a783")
+    version("R2023a", sha256="6482c72b53159bc7bbd235610d14c4b05247fdc0d6d37f2d34a8d0c1cdf018ac")  # update 3
+    version("R2022b", sha256="eafb857a01e6cdf68cb37b39defb438c7f8f3684b390fefc5433c7ffdb799257")
+    version("R2022a", sha256="a4fda597690e155733604cc4f6377c91a5e6ab904223b7c3018ec81f3358f6c9")
+    version("R2021b", sha256="beae0d5f4a21b1387807796659534065858859aa908d090a822f9eb57abed8dc")
 
     variant(
         "mode",
