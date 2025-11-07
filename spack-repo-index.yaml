@@ -1,4 +1,4 @@
 repo_index:
   paths:
-  - repos/ris
+  - spack_pkgs/spack_repo/washu-it-ris/ris
   
