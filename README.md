@@ -27,8 +27,9 @@ It is structured as a mono-repo to allow easier tracking of any needed packages 
    ```
    ```
    [root@519139a6a2a5 ~]# spack repo list
-   [+] washu_it_ris.ris    v2.0    /root/.spack/package_repos/aozlvq7/repos/spack_repo/washu_it_ris/ris
-   [+] builtin             v2.2    /root/.spack/package_repos/fncqgg4/repos/spack_repo/builtin
+   [+] washu_it_ris.ris       v2.0    /root/.spack/package_repos/aozlvq7/repos/spack_repo/washu_it_ris/ris
+   [+] washu_it_ris.artsci    v2.0    /root/.spack/package_repos/aozlvq7/repos/spack_repo/washu_it_ris/artsci
+   [+] builtin                v2.2    /root/.spack/package_repos/fncqgg4/repos/spack_repo/builtin
    ```
 1. Update local cache as needed
     ```
