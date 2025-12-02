@@ -55,7 +55,7 @@ class Matlab(Package):
     extendable = True
 
     def url_for_version(self, version):
-        ris_mirror = "/storage2/fs1/RIS-Services/Active/compute2-private/spack/mirrors/matlab"
+        ris_mirror = "/storage2/fs1/RIS-Services/Active/compute2-public/spack/mirrors/matlab"
         return "file://{0}/matlab_{1}_glnxa64.zip".format(ris_mirror, version)
 
     def install(self, spec, prefix):
