@@ -1,4 +1,5 @@
 repo_index:
   paths:
-  - repos/ris
-  
+  - repos/spack_repo/washu_it_ris/ris
+  - repos/spack_repo/washu_it_ris/artsci
+
