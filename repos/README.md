@@ -8,3 +8,5 @@ This directory contains Spack package recipes and patches that have been customi
   Custom and modified Spack package files for RIS domain.
 - **artsci/**
   Arts and Sciences specific custom Spack packages managed by RIS.
+- **cremins/**
+  Cremins Lab specific custom Spack packages managed by RIS.
