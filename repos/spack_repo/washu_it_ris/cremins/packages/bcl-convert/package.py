@@ -56,3 +56,11 @@ class BclConvert(Package):
                     cpio_proc.returncode, cpio_stderr.strip()
                 )
             )
+
+        source_bin = os.path.join(prefix, "usr", "bin")
+        target_bin = os.path.join(prefix, "bin")
+        if not os.path.isdir(source_bin):
+            raise InstallError("Expected directory missing after extraction: {0}".format(source_bin))
+        if not os.path.lexists(target_bin):
+            os.symlink(source_bin, target_bin)
+
