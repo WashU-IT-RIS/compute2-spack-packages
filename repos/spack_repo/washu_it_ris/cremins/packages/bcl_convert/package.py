@@ -42,7 +42,7 @@ class BclConvert(Package):
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
             text=True,
-        )   
+        )
 
         rpm_proc.stdout.close()
         _, cpio_stderr = cpio_proc.communicate()
