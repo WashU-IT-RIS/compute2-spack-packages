@@ -14,7 +14,7 @@ class W2rapContigger(CMakePackage):
     version("master", branch="master")
     depends_on("cmake", type=("build"))
     # depends_on("cmake@3.30.9", type=("build"))
-    depends_on("gcc@12.2.0", type=("build"))
+    depends_on("gcc@12.5.0", type=("build"))
     # depends_on("gcc", type=("build"))
     depends_on("jemalloc", type=("build", "run"))
 
