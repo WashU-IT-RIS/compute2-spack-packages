@@ -3,4 +3,5 @@ repo_index:
   - repos/spack_repo/washu_it_ris/ris
   - repos/spack_repo/washu_it_ris/artsci
   - repos/spack_repo/washu_it_ris/cremins
+  - repos/spack_repo/washu_it_ris/nil
 
