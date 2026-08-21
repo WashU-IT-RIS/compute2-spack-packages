@@ -23,7 +23,7 @@ class Dmtcp(Package):
     version("4.0.0", sha256="eeb09d51891ae2dc7b625ce36c55a77a7b672ac6987c104e70cdb82782339e9e")
 
     def url_for_version(self, version):
-        return "file://{0}/dmtcp-{1}-x8664.tgz".format(os.getcwd(), version)
+        return "file://{0}/dmtcp-{1}-x8664.tgz".format(os.getcwd,version)
     
     def install(self, spec, prefix):
         # This manually copies your pre-built files into the Spack prefix
