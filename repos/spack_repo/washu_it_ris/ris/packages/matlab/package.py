@@ -25,7 +25,7 @@ class Matlab(Package):
     homepage = "https://www.mathworks.com/products/matlab.html"
     manual_download = True
 
-    maintainers("ris")
+    maintainers("washu-it-ris")
 
     version("R2024b", sha256="65f2798a35212890801a91379d390a757a8e1768d41f1f07a63d5506ac10f9e6")  # update 5
     version("R2024a", sha256="d62123ebef6378a3f9c09dc5d92dd8220df091e3a7d4559fc918c698a05edcda")  # update 3

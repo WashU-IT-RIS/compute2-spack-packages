@@ -17,6 +17,8 @@ class Basespace(Package):
     It can be used independently or in conjunction with BaseMount."""
 
     homepage = "https://developer.basespace.illumina.com"
+    
+    maintainers("washu-it-ris")
 
     version(
         "1.7.0",

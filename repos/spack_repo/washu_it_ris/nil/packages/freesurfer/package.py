@@ -21,7 +21,7 @@ class Freesurfer(Package):
     license_required = True
     license_files = [".license"]
 
-    maintainers("robgics")
+    maintainers("washu-it-ris")
 
     version("8.1.0", sha256="2b134a033a474617ce6d848151f3d91d4551d332c5c644a264b8fd935454b10e", url="file:///storage2/fs1/RIS-Services/Active/compute2-public/spack/mirrors/freesurfer-8.1.0/freesurfer-8.1.0.tar.gz")
     version("7.4.1", sha256="313a96caeb246c5985f483633b5cf43f86ed8f7ccc6d6acfac8eedb638443010", preferred=True)
