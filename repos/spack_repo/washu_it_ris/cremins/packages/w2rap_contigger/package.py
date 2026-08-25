@@ -11,6 +11,8 @@ class W2rapContigger(CMakePackage):
 
     license("MIT")
 
+    maintainers("washu-it-ris")
+
     version("master", branch="master")
     depends_on("cmake", type=("build"))
     # depends_on("cmake@3.30.9", type=("build"))

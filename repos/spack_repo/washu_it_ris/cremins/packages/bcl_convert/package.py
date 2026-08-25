@@ -20,6 +20,8 @@ class BclConvert(Package):
     # Add EULA / License declaration
     license_url = "https://www.illumina.com/content/dam/illumina-marketing/documents/terms-conditions/united-states/illumina-software-subscription-agreement_11-08-2024.pdf"
 
+    maintainers("washu-it-ris")
+
     version(
         "3.8.2",
         sha256 = "f3ef20cd67ce8f076faec865b1d16e31081ae1ed71a8b2ed1d1a20c765764185",
